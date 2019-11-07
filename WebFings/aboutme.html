@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<title>About Me</title>
+ <meta charset="UTF-8">
+  <meta name="description" content="Programming Blog/Resource">
+  <meta name="keywords" content= "HTML,CSS,JavaScript,CPP,Java,Godot,GDScript,Programming,Github,Blog,Creatures,Creatures2,Creatures3,DockingStation,OLC">
+  <meta name="author" content="Dan Twitchett">
+
+<div class="clock" id="clockbox"></div>
+<script type="text/javascript" src="https://freehitcounters.org/count/23z6"></script>
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var clocktext=""+ndate+"/"+(nmonth+1)+"/"+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+<link rel="stylesheet" type="text/css" href="danStyle.css">
+<style>
+
+div {
+border-style:none;
+}
+</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<h1>About Me</h1>
+<br><br><br>
+<div class="navbar">
+	<span><a href="index.html" class="a2">Home</a></span>
+	<span><a href="projects.html" class="a2">Projects</a></span>
+	<span><a href="page4.html" class="a2">Project Diaries</a></span>
+	<span><a href="CC.html" class="a2">Creatures Stuff</a></span>
+	<span><a href="Links.html" class="a2">Resources</a></span>
+	<span><a href="aboutme.html" class="a2">About Me</a></span>
+	<span><a href="Personal.html" class="a2">Personal Blog</a></span>
+</div>
+<br>
+<div style="width:75%;margin:0 auto;">
+<p>My name is Daniel(Dan) Twitchett. I live in the Republic of Ireland, County Roscommon.</p>
+<p>I am 28 years old, I have a beautiful partner and 6 wonderful children, two of which are ASD (On the Autism Spectrum), so theres a little background to start us off :)</p> 
+<p>As you may have read on the main page, I started learning to code in around September of 2018, at that time I had rediscovered an old game that I used to play when I was a child, this game was Creatures Exodus(back then it was just called Creatures 3 and Docking Station/Creatures Internet Edition), So I bought the game on GOG.com, and started playing again.</p>
+<p>However it was a bit fiddly to set up properly, as I had to apply some community made patches in order for it to still work since the original services for this game went down around 10 ish years ago(considering the game is almost 20 years old), if you want to learn about that please go to the <a href="CC.html" class="a1" style="padding:5px 5px 5px 5px;">Creatures Stuff</a> page to find out more!</p>
+<p>Whilst on my journey, looking for patches I came across a project known as openc2e on GitHub.<br>The project had been abandoned almost 8 years before, with the only activity really being people updating it to work with the lastest releases of Boost, and from there I decided I wanted to learn how to code</p>
+<p>Shortly after that in the beginning of 2019, I found the OneLoneCoder Community, after finding Javidx9's youtube channel.<br>I binge-watched most of the videos on the channel, and then found the discord server.
+I have been a member of this server ever since, and have made many friends.<br>When I first joined the server, I hadnt been coding very long and essentially only knew not even the real basics of coding, I had tried coding in Java before and a little bit of GDScript, but even then I was not very far past the "Hello World" stage. :)<br>
+With the help of the community and some trial and error by myself(mostly error :P), my confidence is steadily growing.<br>
+If you have always wanted to code, but dont know where to start or how to go about it, I would highly recommend Javidx9's youtube channel <a href="https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA" class="a1" style="padding:5px 5px 5px 5px">OneLoneCoder</a> and I would also suggest joining his discord server.<br>
+The community is one of the nicest and most helpful that I have ever come across, and Javidx9 is also very active on the server too!</p>
+</div>
+<br><br>
+<div style="border-style:dotted;">
+	<p style="color:#00000F;font-size:14px;"><b>Have some kind words of encouragement? or perhaps some constructive criticism?<br> leave a comment below tell me what you love/like/hate about this site.<br> Be as brutally honest as you like, you can even comment anonymously if you want :)</b></p>
+	 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...<br></div>
+	 <br>
+	 <script type="text/javascript" id="hcb"> if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24PVBwcvcToJGz503XA4tts%2F"+"&opts=16862&num=10&ts=1562074373432");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+	 </div>
+</body>
+
+</html>

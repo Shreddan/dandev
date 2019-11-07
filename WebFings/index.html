@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="description" content="Programming Blog/Resource">
+  <meta name="keywords" content= "HTML,CSS,JavaScript,CPP,Java,Godot,GDScript,Programming,Github,Blog,Creatures,Creatures2,Creatures3,DockingStation,OLC">
+  <meta name="author" content="Dan Twitchett">
+</meta>
+<div class="clock" id="clockbox"></div>
+
+<link rel="stylesheet" type="text/css" href="danStyle.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script type="text/javascript" src="https://freehitcounters.org/count/23z6"></script>
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var clocktext=""+ndate+"/"+(nmonth+1)+"/"+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+<!---#head1 {
+	color: #e76666;
+	animation-name: welcomeColor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+	
+@keyframes welcomeColor {
+	from {color:#e76666;}
+	to {color:#7070e5;}
+}-->
+<!--<script>
+	function hsv2rgb(h,s,v) 
+	{                              
+	  let f= (n,k=(n+h/60)%6) => v - v*s*Math.max( Math.min(k,4-k,1), 0);
+	
+		const toHex = x => {
+			const hex = Math.round(x * 255).toString(16);
+			return hex.length === 1 ? '0' + hex : hex;
+		  };
+	
+	  return `#${toHex(f(5))}${toHex(f(3))}${toHex(f(1))}`;
+	} 
+	var col=0;
+	function changeColor() 
+	{
+		col = col + 8;
+		if(col >= 360) col = col - 360;
+		document.getElementById("head1").style.color=hsv2rgb(col, 0.50, 0.75);
+	}
+	setInterval(changeColor,32);
+</script>-->
+<title>My Programming Journey</title>
+</head>
+<body>
+<h1 id="head1" style="font-size:60px;"><u>Welcome</u></h1>
+<br><br>
+<div class="navbar">
+	<span><a href="index.html" class="a2">Home</a></span>
+	<span><a href="projects.html" class="a2">Projects</a></span>
+	<span><a href="page4.html" class="a2">Project Diaries</a></span>
+	<span><a href="CC.html" class="a2">Creatures Stuff</a></span>
+	<span><a href="Links.html" class="a2">Resources</a></span>
+	<span><a href="aboutme.html" class="a2">About Me</a></span>
+	<span><a href="Personal.html" class="a2">Personal Blog</a></span>
+</div>
+<br><br>
+<div style="border-style:groove;border-color: #00000F">
+<p>Hello, my name is <b>Dan Twitchett</b></p><br><p style="text-align:left;padding:5px 5px 5px 20px;"> I started learning to program in September of 2018, I'd say its going pretty well, however there is still a long way to go yet!<br>
+This website might not look like much now but I plan on putting alot of stuff here, and hopefully as time goes on my HTML and CSS skills will improve aswell.<br>
+This website shall have many purposes, but for now I want to use it as</p>
+
+<ul>
+
+	<li>A place to post my Projects</li>
+	<li>To list resources I have gathered and used during my learning process</li>
+	<li>To have a bit of fun whilst brushing up on my HTML and CSS knowledge</li>
+	
+
+</ul>
+<br><br>
+<p style="text-align:left;padding:5px 5px 5px 20px;">I've only been learning how to program for around 8 or 9 months-ish, and in that time ive tried, at least 5 different programming languages. I have provided a general description and a link for each of these, in case you wish to learn more about these languages. </p>
+
+<ul>
+
+	<li>GDscript - The scripting language used by the Godot Engine.<a href="https://godotengine.org/" class="a1"><img src="/Images/Godot-Logo.png" style="float:right;width:60px;height:20px;"></a></li>
+	<br>
+	<li>C++ - A general purpose programming language, this is the language that I am currently learning and using the most.<a href="https://en.wikipedia.org/wiki/C%2B%2B" class="a1"><img src="/Images/c.png" style="float:right;width:50px;height:50px;"></a></li>
+	<br>
+	<li>Python - A high level, interpreted, general purpose programming language.<a href="https://www.python.org/" class="a1"><img src="/Images/python.png" style="float:right;width:40px;height:40px;padding:5px 5px 5px 5px;"></a></li>
+	<br>
+	<li>Java - A general purpose, class-based, object-oriented programming language.<a href="https://en.wikipedia.org/wiki/Java_(programming_language)" class="a1"><img src="/Images/java.png" style="float:right;width:20px;height:40px;"></a></li>
+	<br>
+	<li>JavaScript - a scripting language most often used in web design alongside HTML and CSS<a href="https://javascript.info/intro" class="a1"><img src="/Images/UOJS.png" alt="UOJS" style="float:right;width:50px;height:30px;padding:5px 5px 5px 5px;"></a></li>
+<br><br><br><br>
+</div>
+
+<br><br><br>
+
+<div  style="border-style:dotted;">
+<p style="color:#00000F;font-size:14px;"><b>Have some kind words of encouragement? or perhaps some constructive criticism?<br> leave a comment below tell me what you love/like/hate about this site.<br> Be as brutally honest as you like, you can even comment anonymously if you want :)</b></p>
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...<br></div>
+ <br>
+ <script type="text/javascript" id="hcb"> if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24PVBwcvcToJGz503XA4tts%2F"+"&opts=16862&num=10&ts=1562074373432");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+ </div>
+</body>
+</html>

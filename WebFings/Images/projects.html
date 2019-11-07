@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+table {
+width:100%;
+padding: 20px 20px 20px 20px;
+}
+</style>
+<div class="clock" id="clockbox"></div>
+<script type="text/javascript" src="https://freehitcounters.org/count/23z6"></script>
+<link rel="stylesheet" type="text/css" href="danStyle.css">
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var clocktext=""+ndate+"/"+(nmonth+1)+"/"+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<title>Projects</title>
+</head>
+<body>
+<h1>My Projects</h1>
+<br><br><br>
+<table>
+<tr>
+	<th><a href="index.html">Home</a></th>
+	<th><a href="projects.html">Projects</a></th>
+	<th><a href="page4.html">Project Diaries</a></th>
+	<th><a href="CC.html">Creatures Stuff</a></th>
+	<th><a href="Links.html">Links</a></th>
+	</tr>
+</table>
+<br>
+<div>
+<h2>Currently Working On</h2>
+<table>
+<tr>
+<td></td>
+</tr>
+</table>
+<br><br>
+<h2 style="text-align:center">"Completed" - but still working on</h2>
+<table>
+<tr>
+<td><a href="https://www.github.com/Shreddan/CreatureBot">CreatureBot - C++</a></td>
+<td style="padding: 5px 5px 5px 5px"><p style="text-align:left">I made a chatbot that takes commands from Twitch chat and interacts with Creatures 3 / Docking Station</p></td>
+<td><img src="/Images/snapshotbitches.PNG" alt="c3ds" width="500" height="300"></td> 
+</tr>
+<tr>
+<td><a href="https://www.github.com/Shreddan/Civ-Clicker">Civ-Clicker - C++</a></td>
+<td><p style="text-align:left">I created a Civ-Clicker game, using Javidx9's olcPixelGameEngine</p></td>
+<td><img src="/Images/thumbnailinit.PNG" alt="front" width="500" height="300"></td>
+</tr>
+</table>
+
+<h2 style="text-align:center"><u>Ongoing</u></h2>
+<table>
+<tr>
+<td><p>This started out as me messing about with SFML, trying to get a feel for it, but now my confidence has grown somewhat I think I might turn it into a game of some sort, if you want to take a look feel free.</p></td>
+<td><a href="https://github.com/Shreddan/SFMLPlayground" class="a">SFML Playground - C++</a></td>
+</tr>
+<tr>
+<td><p>This was one of my first C++ projects, it is my attempt at trying to replicate some youtube videos that my son enjoys watching.</p></td>
+<td><a href="https://github.com/Shreddan/BallProject" class="a" style="text-align:center;width:80%;">BallProject - C++</a></td>
+</tr>
+</table>
+</div>
+</body>
+<footer>
+<p>If you like what you see and want to help out, heres a button to my paypal</p>
+<p><b>DISCLAIMER</b><br> I do not/would never expect anyone to donate, only if you are able to and would like to.</p>
+
+<form style="text-align: center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="ELHTS54LJCKUN" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="2" height="2" /></form>
+</footer>
+</html>
