@@ -3,7 +3,7 @@
     $pageTitle = "Welcome";
     require_once "./partials/title.php"
 ?>
-<div class="w-3/4 mx-auto bg-white p-8 border-t-4 border-teal-700 shadow-lg mt-10 mb-10">
+<div class="container mx-auto bg-white p-8 border-t-4 border-teal-700 shadow-lg mt-10 mb-10">
     <p class="mb-3">Hello, my name is <b>Dan Twitchett</b></p>
     <p class="mb-3"> I started learning to program in September of 2018, I'd say its going pretty well, however there is still a long way to go yet!<p>
     <p class="mb-3">This website might not look like much now but I plan on putting alot of stuff here, and hopefully as time goes on my HTML and CSS skills will improve aswell.</p>
@@ -20,47 +20,47 @@
         wish to learn more about these languages.</p>
 
     <div class="mt-10">
-        <div class="flex items-center mb-10">
-            <div class="w-2/12 text-center">
+        <div class="md:flex items-center mb-10">
+            <div class="md:w-2/12 md:text-center mb-3 md:mb-0">
                 <a href="https://godotengine.org/"><img class="h-24 inline-block" src="/Images/godot_logo.png"></a>
             </div>
-            <div class="w-10/12">
+            <div class="md:w-10/12">
                 <p class="font-bold">GDscript</p>
                 <p>The scripting language used by the Godot Engine.</p>
             </div>
         </div>
-        <div class="flex items-center mb-10">
-            <div class="w-2/12 text-center">
+        <div class="md:flex items-center mb-10">
+            <div class="md:w-2/12 md:text-center mb-3 md:mb-0">
                 <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="a1"><img src="/Images/c.png" class="h-24 inline-block"></a>
             </div>
-            <div class="w-10/12">
+            <div class="md:w-10/12">
                 <p class="font-bold">C++</p>
                 <p>A general purpose programming language, this is the language that I am currently learning and using the most.</p>
             </div>
         </div>
-        <div class="flex items-center mb-10">
-            <div class="w-2/12 text-center">
+        <div class="md:flex items-center mb-10">
+            <div class="md:w-2/12 md:text-center mb-3 md:mb-0">
                 <a href="https://www.python.org/" class="a1"><img src="/Images/python.png" class="h-24 inline-block"></a>
             </div>
-            <div class="w-10/12">
+            <div class="md:w-10/12">
                 <p class="font-bold">Python</p>
                 <p>A high level, interpreted, general purpose programming language.</p>
             </div>
         </div>
-        <div class="flex items-center mb-10">
-            <div class="w-2/12 text-center">
+        <div class="md:flex items-center mb-10">
+            <div class="md:w-2/12 md:text-center mb-3 md:mb-0">
                 <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" class="a1"><img src="/Images/java.png" class="h-24 inline-block"></a>
             </div>
-            <div class="w-10/12">
+            <div class="md:w-10/12">
                 <p class="font-bold">Java</p>
                 <p>A general purpose, class-based, object-oriented programming language.</p>
             </div>
         </div>
-        <div class="flex items-center">
-            <div class="w-2/12 text-center">
+        <div class="md:flex items-center">
+            <div class="md:w-2/12 md:text-center mb-3 md:mb-0">
                 <a href="https://javascript.info/intro" class="a1"><img src="/Images/UOJS.png" alt="UOJS" class="h-24 inline-block"></a>
             </div>
-            <div class="w-10/12">
+            <div class="md:w-10/12">
                 <p class="font-bold">JavaScript</p>
                 <p>A scripting language most often used in web design alongside HTML and CSS</p>
             </div>

@@ -5,7 +5,7 @@
 ?>
 
 <div>
-    <div class="w-3/4 mx-auto my-10">
+    <div class="container mx-auto my-10">
         <div class="bg-white shadow-md mb-8 border-teal-700 border-t-4">
             <div class="p-4 border-grey-200 border-b-2">
                 <h2 class="text-lg font-bold">The A-Bomb</h2>

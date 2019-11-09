@@ -4,7 +4,7 @@
     require_once "./partials/title.php"
 ?>
 
-<div class="w-3/4 bg-white p-8 shadow-md mx-auto border-teal-700 border-t-4 mb-10 mt-10">
+<div class="container bg-white p-8 shadow-md mx-auto border-teal-700 border-t-4 mb-10 mt-10">
     <p class="mb-3">My name is Daniel(Dan) Twitchett. I live in the Republic of Ireland, County Roscommon.</p>
     <p class="mb-3">I am 28 years old, I have a beautiful partner and 6 wonderful children, two of which are ASD (On the Autism
         Spectrum), so theres a little background to start us off :)</p>

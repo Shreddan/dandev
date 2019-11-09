@@ -4,7 +4,7 @@
     require_once "./partials/title.php"
 ?>
 
-<div class="mt-10 w-3/4 mx-auto">
+<div class="mt-10 container mx-auto">
     <div class="bg-white shadow-md mb-8 border-teal-700 border-t-4">
         <div class="p-4 border-grey-200 border-b-2 flex items-center justify-between">
             <h2 class="text-lg font-bold">Project : OLCMud / MUD Client</h2>
