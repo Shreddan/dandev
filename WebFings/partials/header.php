@@ -47,18 +47,20 @@
         <a class="inline-block" href="/personal">Personal Blog</a>
     </div>
     <div class="container mx-auto block md:hidden flex justify-end">
-        <div id="burger" class="flex flex-col justify-between py-2 cursor-pointer">
+        <div id="burger" class="flex flex-col justify-between py-2 cursor-pointer mr-5">
             <div class="bg-white pt-1 rounded w-6 mb-1"></div>
             <div class="bg-white pt-1 rounded w-6 mb-1"></div>
             <div class="bg-white pt-1 rounded w-6"></div>
         </div>
     </div>
     <div id="mobile_nav" class="hidden">
-        <a class="block px-5 text-right mb-5 mt-5 text-lg" href="/">Home</a>
-        <a class="block px-5 text-right mb-5 text-lg" href="/projects">Projects</a>
-        <a class="block px-5 text-right mb-5 text-lg" href="/project-diaries">Project Diaries</a>
-        <a class="block px-5 text-right mb-5 text-lg" href="/resources">Resources</a>
-        <a class="block px-5 text-right mb-5 text-lg" href="/about-me">About Me</a>
-        <a class="block px-5 text-right mb-5 text-lg" href="/personal">Personal Blog</a>
+        <div class="container text-left pl-5">
+            <a class="block mb-5 mt-5 text-lg" href="/">Home</a>
+            <a class="block mb-5 text-lg" href="/projects">Projects</a>
+            <a class="block mb-5 text-lg" href="/project-diaries">Project Diaries</a>
+            <a class="block mb-5 text-lg" href="/resources">Resources</a>
+            <a class="block mb-5 text-lg" href="/about-me">About Me</a>
+            <a class="block mb-5 text-lg" href="/personal">Personal Blog</a>
+        </div>
     </div>
 </div>
