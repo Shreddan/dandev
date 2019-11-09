@@ -4,12 +4,12 @@
     require_once "./partials/title.php"
 ?>
 
-<div class="w-3/4 mx-auto mt-10">
-    <div class="flex flex-wrap">
-        <div class="w-1/3 px-2 mb-10">
+<div class="container mx-auto mt-10">
+    <div class="sm:flex flex-wrap">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px;">
-                    <img src="/Images/DMud1.png" alt="DMud" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px;">
+                    <img class="mx-auto" src="/Images/DMud1.png" alt="DMud">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
@@ -21,10 +21,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 px-2 mb-10">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px">
-                    <img src="/Images/CreaturesReborn.png" alt="CR" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px">
+                    <img class="mx-auto" src="/Images/CreaturesReborn.png" alt="CR">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
@@ -36,10 +36,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 px-2 mb-10">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px;">
-                    <img src="/Images/fatal.png" alt="DMud" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px;">
+                    <img class="mx-auto" src="/Images/fatal.png" alt="DMud">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
@@ -51,10 +51,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 px-2 mb-10">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px;">
-                    <img src="/Images/snapshotbitches.PNG" alt="DMud" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px;">
+                    <img class="mx-auto" src="/Images/snapshotbitches.PNG" alt="DMud">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
@@ -66,10 +66,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 px-2 mb-10">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px;">
-                    <img src="/Images/thumbnailinit.PNG" alt="DMud" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px;">
+                    <img class="mx-auto" src="/Images/thumbnailinit.PNG" alt="DMud">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
@@ -81,10 +81,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 px-2 mb-10">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px;">
-                    <img src="/Images/ssanne.PNG" alt="DMud" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px;">
+                    <img class="mx-auto" src="/Images/ssanne.PNG" alt="DMud">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
@@ -96,10 +96,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/3 px-2 mb-10">
+        <div class="xl:w-1/4 lg:w-1/3 sm:w-1/2 px-2 mb-10">
             <div class="bg-white shadow-md rounded-b h-full">
-                <div class="bg-black relative" style="height:176px;">
-                    <img src="/Images/ballsack.PNG" alt="DMud" class="img">
+                <div class="bg-black relative overflow-hidden" style="height:176px;">
+                    <img class="mx-auto" src="/Images/ballsack.PNG" alt="DMud">
                     <span class="absolute bottom-0 right-0 mr-2 mb-2 inline-block bg-teal-700 text-white px-2 rounded text-sm font-bold border-teal-900 border">C++</span>
                 </div>
                 <div class="p-3">
